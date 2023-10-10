@@ -7,8 +7,8 @@ app=Flask("rishu")
 CORS(app)
 @app.route("/gh",methods=["POST","GET"])
 def home():
-    openai.api_key="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"
-    openai.organization="org-zi2VSI5lOn6CnSwXjq9zRyG9" 
+    openai.api_key="abc"
+    
     
     FileTypeOfValue=request.data.decode('utf-8')
     print(FileTypeOfValue)
